@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>login|register</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <div class="slide-container">
+        <button type="button" class="toggle-btn log">login</button>
+        <button type="button" class="toggle-btn sine">SignUp</button>
+        <div class="slide-btn"></div>
+      </div>
+      <!-- login-form -->
+      <div class="login-container">
+        <form class="login form">
+          <div>
+            <i class="fas fa-user"></i>
+
+            <input type="email" name="name" placeholder="Email" />
+          </div>
+          <div>
+            <i class="fas fa-user-lock"></i>
+            <input type="password" name="password" placeholder="*****" />
+          </div>
+          <a href="#">forgot Password</a>
+          <div class="btn-container">
+            <button type="button" class="btn">Login</button>
+          </div>
+        </form>
+      </div>
+      <!-- signUp-form -->
+      <div class="signUp-container">
+        <form class="signUp form">
+          <div>
+            <label for="name">full name</label>
+            <br />
+            <input type="text" name="name" id="name" />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <br />
+            <input type="email" name="email" id="email" />
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <br />
+            <input type="password" name="password" id="password" />
+          </div>
+          <div>
+            <label for="confirmPassword">Confirm Password</label>
+            <br />
+            <input type="password" name="password" id="confirmPassword" />
+          </div>
+          <div class="btn-container">
+            <button type="button" class="btn">signUp</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="overlay"></div>
+    <script src="index.js"></script>
+  </body>
+</html>

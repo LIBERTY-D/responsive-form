@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+
+* {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+body {
+  background-image: url(./img//bg.svg);
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+input {
+  padding: 0.3rem;
+  outline: none;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 1px solid #ddd;
+  width: 80%;
+  background-color: #666;
+  margin-top: 0.5rem;
+}
+.form-container {
+  max-width: 500px;
+  overflow: hidden;
+  width: 100%;
+  margin: 10%;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  height: 500px;
+  background-color: transparent;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.slide-container {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 30px;
+  max-width: 200px;
+  margin: auto;
+  position: relative;
+  border-radius: 0.5rem;
+}
+.toggle-btn {
+  height: 30px;
+  border: none;
+  background: transparent;
+  position: absolute;
+  color: white;
+  z-index: 1;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.log {
+  left: 1.3rem;
+}
+.sine {
+  right: 1.3rem;
+}
+.login-container {
+  position: relative;
+}
+.login {
+  position: absolute;
+  transition: 0.5s;
+  left: 0%;
+}
+.signUp-container {
+  position: relative;
+}
+.signUp {
+  left: -50%;
+  position: absolute;
+  transition: 0.5s;
+}
+
+.login i {
+  color: #cef1f1;
+}
+.slide-btn {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 0;
+  background-color: coral;
+  border-radius: 0.5rem;
+  transition: 0.5s;
+}
+
+.btn {
+  margin: 1.2rem 0;
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  width: 60%;
+  z-index: 1;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  color: #666;
+  background-color: rgb(127, 189, 127);
+}
+.btn:hover {
+  background-color: rgb(3, 56, 3);
+  transition: 0.5s;
+}
+.signUp label {
+  color: white;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+a {
+  text-decoration: none;
+  padding-left: 0.5rem;
+  color: #cef1f1;
+}
